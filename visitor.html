@@ -1,0 +1,69 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>VISITOR — AI‑BioX ConfEX</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+  <!-- 헤더 -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="Index.html">
+        <img src="Assets/Logo.svg" alt="AI‑BioX" />
+        <span>AI‑BioX ConfEX</span>
+      </a>
+      <nav class="tabs">
+        <a href="About.html">ABOUT</a>
+        <a href="Conference.html">CONFERENCE</a>
+        <a href="Exhibition.html">EXHIBITION</a>
+        <a href="Program.html">PROGRAM</a>
+        <a href="Visitor.html" class="active">VISITOR</a>
+        <a href="Exhibitor.html">EXHIBITOR</a>
+        <a href="Media.html">MEDIA</a>
+      </nav>
+      <div class="actions">
+        <a class="pill" href="#">🌐 LANGUAGE</a>
+        <a class="pill" href="Login.html">LOG IN / JOIN</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Visitor Information</h1>
+      <p class="muted">등록 · 오시는 길 · 숙박 · 현장 안내</p>
+    </div>
+  </section>
+
+  <!-- 방문객 안내 -->
+  <section>
+    <div class="container">
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>등록(Registration)</h3>
+          <p class="muted">학생/일반/스폰서 티켓 — Google Form 링크.</p>
+          <p style="margin-top:8px"><a class="btn" href="https://forms.gle/" target="_blank">사전등록</a></p>
+        </div>
+        <div class="card">
+          <h3>오시는 길</h3>
+          <p class="muted">COEX (삼성역/봉은사역) 교통안내, 주차, 입장 동선.</p>
+        </div>
+        <div class="card">
+          <h3>현장 가이드</h3>
+          <p class="muted">배지 수령, 세션/부스 위치, 안내데스크·라운지 위치.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 푸터 -->
+  <footer class="footer">
+    <div class="container">© <span id="yr"></span> AI‑BioX ConfEX</div>
+  </footer>
+
+  <script>document.getElementById('yr').textContent = new Date().getFullYear()</script>
+</body>
+</html>
