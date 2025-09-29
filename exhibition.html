@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>EXHIBITION — AI‑BioX ConfEX</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+  <!-- 헤더 -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="Index.html">
+        <img src="Assets/Logo.svg" alt="AI‑BioX" />
+        <span>AI‑BioX ConfEX</span>
+      </a>
+      <nav class="tabs">
+        <a href="About.html">ABOUT</a>
+        <a href="Conference.html">CONFERENCE</a>
+        <a href="Exhibition.html" class="active">EXHIBITION</a>
+        <a href="Program.html">PROGRAM</a>
+        <a href="Visitor.html">VISITOR</a>
+        <a href="Exhibitor.html">EXHIBITOR</a>
+        <a href="Media.html">MEDIA</a>
+      </nav>
+      <div class="actions">
+        <a class="pill" href="#">🌐 LANGUAGE</a>
+        <a class="pill" href="Login.html">LOG IN / JOIN</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Exhibition</h1>
+      <p class="muted">기업·기관 전시, 데모, 파트너 부스, 현장 미팅 라운지</p>
+    </div>
+  </section>
+
+  <!-- 전시 개요 -->
+  <section>
+    <div class="container">
+      <div class="grid grid-3">
+        <div class="card">
+          <h3>전시 개요</h3>
+          <p class="muted">기본부스·독립부스 규격, 제공 품목, 전기·인터넷 신청과 부대시설 안내.</p>
+        </div>
+        <div class="card">
+          <h3>참가사 디렉토리</h3>
+          <p class="muted">A–Z 목록 및 카테고리(제약·바이오·AI 솔루션·디바이스·대학/연구기관).</p>
+        </div>
+        <div class="card">
+          <h3>Meet‑up</h3>
+          <p class="muted">사전 미팅 요청 → 현장 매칭 라운지에서 1:1 상담.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 신청/가이드 CTA -->
+  <section>
+    <div class="container">
+      <div class="card" style="display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap">
+        <div>
+          <h3 style="margin:0">부스 신청 & 운영 가이드</h3>
+          <p class="muted" style="margin:.25rem 0 0">신청 폼, 마감 일정, 결제/세금계산서, 설치·운영·철거 안내</p>
+        </div>
+        <div style="display:flex;gap:10px;flex-wrap:wrap">
+          <a class="btn" href="Exhibitor.html">부스 신청 안내</a>
+          <a class="pill" href="Media.html">공지/자료실</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 현장 서비스 -->
+  <section>
+    <div class="container">
+      <h2 style="margin:0 0 10px">On‑site Services</h2>
+      <div class="grid grid-3">
+        <div class="card"><h3>라운지</h3><p class="muted">미팅 라운지, 스낵바, 워킹 테이블</p></div>
+        <div class="card"><h3>홍보</h3><p class="muted">현장 리플릿·맵, 키비주얼 활용 가이드</p></div>
+        <div class="card"><h3>지원</h3><p class="muted">안내데스크, 물류·보안, 긴급 지원 연락</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 푸터 -->
+  <footer class="footer">
+    <div class="container">© <span id="yr"></span> AI‑BioX ConfEX</div>
+  </footer>
+
+  <script>document.getElementById('yr').textContent = new Date().getFullYear()</script>
+</body>
+</html>
