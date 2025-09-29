@@ -1,0 +1,74 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>CONFERENCE — AI‑BioX ConfEX</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+  <!-- 헤더 -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="Index.html">
+        <img src="Assets/Logo.svg" alt="AI‑BioX" />
+        <span>AI‑BioX ConfEX</span>
+      </a>
+      <nav class="tabs">
+        <a href="About.html">ABOUT</a>
+        <a href="Conference.html" class="active">CONFERENCE</a>
+        <a href="Exhibition.html">EXHIBITION</a>
+        <a href="Program.html">PROGRAM</a>
+        <a href="Visitor.html">VISITOR</a>
+        <a href="Exhibitor.html">EXHIBITOR</a>
+        <a href="Media.html">MEDIA</a>
+      </nav>
+      <div class="actions">
+        <a class="pill" href="#">🌐 LANGUAGE</a>
+        <a class="pill" href="Login.html">LOG IN / JOIN</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Conference</h1>
+      <p class="muted">키노트 · 주제별 심포지엄 · 패널 라운드테이블 — 산업/학계/정책/투자 협력</p>
+    </div>
+  </section>
+
+  <!-- 개요 카드 -->
+  <section>
+    <div class="container">
+      <div class="grid grid-3">
+        <div class="card"><h3>Keynotes</h3><p class="muted">AI, Bio, Digital 전환의 거시 트렌드와 전략.</p></div>
+        <div class="card"><h3>Symposia</h3><p class="muted">AI Drug Discovery, Precision Genomics, AI Transformation, Digital Health 등.</p></div>
+        <div class="card"><h3>Panels</h3><p class="muted">규제·데이터 거버넌스·글로벌 협력·인재 양성.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 메인 테마 -->
+  <section>
+    <div class="container">
+      <h2 style="margin:0 0 10px">Main Themes</h2>
+      <div class="grid grid-3">
+        <div class="card"><h3>AI</h3><p class="muted">Gen AI & LLM / 데이터 거버넌스 / 산업 적용 / 로보틱스 융합</p></div>
+        <div class="card"><h3>Bio</h3><p class="muted">AI Drug Discovery / Precision Genomics / Bioinformatics / Bioeconomy</p></div>
+        <div class="card"><h3>Digital Wellness · Contents</h3><p class="muted">디지털 멘탈헬스·웨어러블 / OTT·메타버스 / 창작 자동화</p></div>
+      </div>
+      <p style="margin-top:12px"><a class="pill" href="Program.html">프로그램·타임테이블 보기</a></p>
+    </div>
+  </section>
+
+  <!-- 푸터 -->
+  <footer class="footer">
+    <div class="container">© <span id="yr"></span> AI‑BioX ConfEX</div>
+  </footer>
+
+  <script>
+    document.getElementById('yr').textContent = new Date().getFullYear()
+  </script>
+</body>
+</html>
