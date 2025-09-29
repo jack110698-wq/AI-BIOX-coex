@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>MEDIA — AI‑BioX ConfEX</title>
+  <link rel="stylesheet" href="Style.css" />
+</head>
+<body>
+  <!-- 헤더 -->
+  <header class="header">
+    <div class="container nav">
+      <a class="brand" href="Index.html">
+        <img src="Assets/Logo.svg" alt="AI‑BioX" />
+        <span>AI‑BioX ConfEX</span>
+      </a>
+      <nav class="tabs">
+        <a href="About.html">ABOUT</a>
+        <a href="Conference.html">CONFERENCE</a>
+        <a href="Exhibition.html">EXHIBITION</a>
+        <a href="Program.html">PROGRAM</a>
+        <a href="Visitor.html">VISITOR</a>
+        <a href="Exhibitor.html">EXHIBITOR</a>
+        <a href="Media.html" class="active">MEDIA</a>
+      </nav>
+      <div class="actions">
+        <a class="pill" href="#">🌐 LANGUAGE</a>
+        <a class="pill" href="Login.html">LOG IN / JOIN</a>
+      </div>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>Media / Notice</h1>
+      <p class="muted">공지 · 보도자료 · 포토/갤러리</p>
+    </div>
+  </section>
+
+  <!-- 미디어 섹션 -->
+  <section>
+    <div class="container">
+      <div class="grid grid-3">
+        <div class="card"><h3>공지</h3><p class="muted">사전등록·프로그램·부스 공지 모음.</p></div>
+        <div class="card"><h3>보도자료</h3><p class="muted">언론 배포 자료, 키비주얼·로고 다운로드.</p></div>
+        <div class="card"><h3>갤러리</h3><p class="muted">행사 사진/영상 링크.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 푸터 -->
+  <footer class="footer">
+    <div class="container">© <span id="yr"></span> AI‑BioX ConfEX</div>
+  </footer>
+
+  <script>document.getElementById('yr').textContent = new Date().getFullYear()</script>
+</body>
+</html>
